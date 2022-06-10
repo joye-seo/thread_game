@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "686526158861",
+    "project_id": "week4-thread-game",
+    "storage_bucket": "week4-thread-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686526158861:android:490f14ea4594d7ff3d9d44",
+        "android_client_info": {
+          "package_name": "com.example.week4_thread_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686526158861-q4fboji4sheaudlo1l58fe5qnf817d92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkYDFwWxZ2RTEMlINtUarZ0_4_gsrBQGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686526158861-q4fboji4sheaudlo1l58fe5qnf817d92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
