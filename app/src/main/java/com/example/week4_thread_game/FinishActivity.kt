@@ -1,8 +1,9 @@
 package com.example.week4_thread_game
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.week4_thread_game.databinding.ActivityFinishBinding
 
 class FinishActivity : AppCompatActivity() {
@@ -17,8 +18,8 @@ class FinishActivity : AppCompatActivity() {
         binding = ActivityFinishBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val score = intent.getStringExtra("score")
-        binding.tvScore.text = score.toString()
+        binding.tvScore.text = intent.getStringExtra("Score")
+        Log.d("testScore",intent.getStringExtra("Score").toString())
     }
 
     override fun onBackPressed() {
